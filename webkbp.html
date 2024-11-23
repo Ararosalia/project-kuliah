@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Halaman Formulir</h2>
+    <!-- Ganti path src sesuai lokasi gambar -->
+    <img src="images/download.jpg" alt="Gambar" class="logo">
+
+    
+    <form id="formulir">
+        <label for="nama">Nama:</label>
+        <input type="text" id="nama" name="nama" required>
+        
+        <label for="usia">Usia:</label>
+        <input type="number" id="usia" name="usia" required>
+        
+        <label for="alamat">Alamat:</label>
+        <input type="text" id="alamat" name="alamat" required>
+        
+        <label for="telepon">Nomor Telepon:</label>
+        <input type="tel" id="telepon" name="telepon" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="tempat_tanggal_lahir">Tempat, Tanggal Lahir:</label>
+        <input type="text" id="tempat_tanggal_lahir" name="tempat_tanggal_lahir" required>
+        
+        <button type="button" id="submit">Kirim</button>
+    </form>
+
+    <table id="dataTable">
+        <thead>
+            <tr>
+                <th>Nama</th>
+                <th>Usia</th>
+                <th>Alamat</th>
+                <th>Nomor Telepon</th>
+                <th>Email</th>
+                <th>Tempat, Tanggal Lahir</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Data akan ditambahkan di sini -->
+        </tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>
